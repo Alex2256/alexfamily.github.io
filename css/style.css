@@ -1,0 +1,689 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1020px;
+    margin: 0 auto;
+}
+
+header{
+    padding: 16px 98px 16px 0;
+}
+
+header a{
+    text-decoration: none;
+    color: #222;
+}
+
+.title{
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 120%;
+    color: #000;
+}
+
+
+
+.btn {
+    border-radius: 80px;
+    border-color: white;
+    width: 154px;
+    height: 57px;
+    background: #efae35;
+    cursor: pointer;
+}
+
+.header_list{
+    padding-right: 98px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 32px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 158%;
+    list-style-type: none;
+}
+
+.blog{
+    background: url("../img/blog_bg.jpg")center center/cover no-repeat;
+    min-height: 799px;
+    padding-top: 231px;
+}
+
+.blog_title{
+    width: 551px;
+}
+
+.blog_text{
+    margin-top: 32px;
+    font-size: 17px;
+    line-height: 180%;
+}
+
+.introducing{
+    /* position: relative; */
+    margin-top: 116px;
+    min-height: 640px;
+}
+
+.intro_content{
+    position: relative;
+    width: 100%;
+    padding: 143px 0 0 72px;
+
+}
+
+.intro_img {
+    position: absolute;
+    right: 0px;
+    top: 95px;
+}
+
+.intro_text{
+    margin-top: 32px;
+    width: 416px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 170%;
+}
+
+.intro_btn{
+    margin-top: 38px;
+}
+
+.intro_link{
+    margin-left: 24px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 148%;
+    color: #24160b;
+    text-decoration: none;
+    border-bottom: 2px solid rgba(36, 22, 11, 0.12);;
+}
+
+.rest{
+    margin-top: 261px;
+
+}
+
+.rest_wrapper{
+    position: relative;
+    
+    
+}
+
+.rest_text{
+    width: 442px;
+}
+
+.subtitle{
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 130%;
+    color: #24160b;
+}
+
+.text_description{
+    margin-top: 19px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 170%;
+    color: #24160b;
+    border-bottom: 3px solid rgba(177, 108, 234, 0.1);
+}
+
+.percentage{
+    margin-top: 25px;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 97%;
+    color: #24160b;
+}
+
+.addition{
+    margin-top: 25px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #24160b;
+}
+
+.source{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 306%;
+    color: #24160b;
+}
+
+.rest_img{
+    position: absolute;
+    right: 0;
+    top: 107px;
+}
+
+.healthy{
+    height: 495px;
+}
+
+.healthy_wrapper{
+    position: relative;
+    margin-top: 157px;
+}
+
+.healthy_text{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 457px;
+}
+
+.healthy_img{
+    position: absolute;
+    top: 107px;
+}
+
+.reconnect{
+    margin-top:157px ;
+}
+
+.reconnect_wrapper{
+    position: relative;
+    
+}
+
+.reconnect_text{
+    width: 453px;
+}
+.reconnect_img{
+    position: absolute;
+    right: 0;
+    top: 122px;
+}
+
+.time{
+    margin-top: 157px;
+    height: 418px;
+}
+
+.time_wrapper{
+    position: relative;
+}
+
+.time_text{
+    width: 454px;
+    position: absolute;
+    right: 0;
+}
+
+.time_img{
+    position: absolute;
+    top: 107px;
+}
+.recommendations{
+    padding-bottom: 180px;
+}
+
+.recommendations_wrapper{
+    padding: 236px 0 0 0;
+}
+
+.recommendations_subtitle{
+    text-align: center;
+}
+
+.recommendations_logos{
+    margin-top: 79px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.item_best{
+    display: block;
+    margin: 32px auto 0 auto;
+}
+
+.action{
+    min-height: 802px;
+    padding-top: 231px;
+    background: url("../img/action_BG.jpg")center center/cover no-repeat;
+}
+
+.action_title{
+    color: #fff;
+}
+
+.action_text{
+    margin-top: 35px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 233%;
+    color: #fff;
+}
+
+.action_player{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 62px;
+    width: 128px;
+    height: 128px;
+    background: #fff;
+    float: left;
+}
+
+.action_name_track{
+    margin: 85px 0 0 144px;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 133%;
+    color: #fff;
+}
+
+.action_time_track{
+    margin-left: 144px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 156%;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.experience{
+    padding: 252px 0 0 0;
+    height: 1207px;
+}
+
+
+.experience_wrapper{
+    position: relative;
+}
+
+.The_Aro_Experience,.The_Aro_App,.The_Aro_Home_Device{
+    width: 448px;
+
+}
+
+.first_img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.intro_link.experience_link{
+    display: inline-block;
+    margin: 47px 0 0 0;
+}
+
+.The_Aro_App{
+    position: absolute;
+    top: 423px;
+    right: 0;
+}
+
+.second_img{
+    position: absolute;
+    top: 423px;
+}
+
+.The_Aro_Home_Device{
+    position: absolute;
+    top: 849px;
+}
+
+.third_img{
+    position: absolute;
+    right: 0;
+    top: 849px;
+}
+
+.ex_descr{
+    border-bottom: none
+}
+
+.picnure_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 439px;
+    background: url("../img/IMAGE_futter_bg.jpg")center center/cover no-repeat;
+    height: 647px;
+}
+
+.picture_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 80px;
+    width: 225px;
+    height: 57px;
+    box-shadow: -1px 1px 2px 0 rgba(0, 0, 0, 0.07);
+    background: #f5f8fa;
+}
+.picture_button a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 148%;
+    color: #24160b;
+}
+
+.infotmation{
+    margin-top: 140px;
+    background: #24160b;
+    padding: 45px 0 56px 0;
+}
+
+.information_box{
+    display: flex;
+    justify-content: center;
+    gap: 34px;
+    
+
+}
+
+.information_item{
+    width: 317px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 170%;
+    color: #fff;
+}
+
+.information_item span{
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 130%;
+    color: #fcf8f4;
+}
+
+.advertising{
+    padding-top: 137px;
+}
+
+.advertising h2{
+    text-align: center;
+}
+
+.advertising_subtitle{
+    margin-top: 32px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 235%;
+    text-align: center;
+    color: #24160b;
+}
+
+.advertising_wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 112px 0 0 0;
+}
+
+.advertising_img{
+    height: 289px;
+}
+.advertising_text{
+    display: flex;
+    justify-content: space-between;
+    padding: 27px 0 0 0;
+}
+
+.advertising_item{
+    width: 230px;
+}
+.advertising_item p{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 170%;
+    color: #24160b;
+}
+
+.dvertising_item h3{
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 157%;
+    color: #24160b;
+}
+
+.slogan{
+    padding: 355px 0 412px 0;
+}
+
+.slogan p{
+    width: 880px;
+    margin:0 auto;
+    text-align: center;
+    font-weight: 400;
+    font-size: 92px;
+    line-height: 100%;
+    color: #000;
+}
+
+.slogan span{
+    display: block;
+    margin: 39px auto 431px auto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 170%;
+    text-align: center;
+    color: #24160b;
+}
+
+.poster_wrapper{
+   
+    display: grid;
+    grid-template-columns: 285px 1fr;
+    grid-template-rows: 285px 285px;
+    gap: 16px 24px;
+}
+
+.wrapper_item_one{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+      
+}
+.wrapper_item_two{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    
+}
+
+.wrapper_item_three{
+    position: relative;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.poster_title{
+    position: absolute;
+    top: 192px;
+    left: 152px;
+    right: 152px;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 120%;
+    text-align: center;
+    color: #fff;
+}
+
+.poster_text{
+    position: absolute;
+    top: 362px;
+    left: 132px;
+    right: 132px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 170%;
+    text-align: center;
+    color: #fff;
+}
+
+.btn_poster{
+    width: 134px;
+    position: absolute;
+    top: 417px;
+    left: 288px;
+    right: 288px;
+}
+.links_wrraper{
+    position: relative;
+    margin-top: 260px;
+    display: flex;
+    justify-content: left;
+    gap: 64px;
+}
+
+.links_wrraper ul{
+    list-style-type: none;
+}
+
+.links_wrraper a {
+    text-decoration: none;
+}
+
+.links_title{
+    margin-bottom: 19px;
+}
+
+.links_title a {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 157%;
+    color: #24160b;
+}
+
+.links_text a{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 140%;
+    color: #70706c;
+}
+
+.links_box{
+    border: 1px solid rgba(112, 112, 108, 0.2);
+    border-radius: 88px;
+    width: 342px;
+    height: 49px;
+}
+
+.links_img{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 71px;
+    height: 32px;
+    margin-right: 0px;
+}
+
+.footer_wrp{
+    position: relative;
+    margin-top: 126px;
+    min-height: 140px;
+    border-top: solid 1px rgba(112, 112, 108, 0.2);
+}
+
+.social{
+    margin-top: 39px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.social div a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(112, 112, 108, 0.2);
+    width: 48px;
+    height: 48px;
+}
+
+.footer_bluetooth{
+    position: absolute;
+    top: 27px;
+    left: 0px;
+    width: 283px;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 166%;
+    color: #70706c;
+
+}
+.footer_rights{
+    position: absolute;
+    top: 78px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 160%;
+    color: #70706c;
+}
+
+.terms{
+    position: absolute;
+    right: 0;
+    top: 39px;
+}
+
+.sale{
+    position: absolute;
+    right: 0;
+    top:69px
+}
+
+.privacy{
+    position: absolute;
+    top: 39px;
+    right: 124px
+}
+
+.footer_wrp a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 140%;
+    text-align: right;
+    color: #70706c;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
